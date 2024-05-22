@@ -1,5 +1,5 @@
 .set-input {
-    width: 340px;
+    width: 240px;
     min-height: 200px;
     background-color: #333;
     border-radius: 10px;
@@ -36,14 +36,14 @@
 }
 
 .top-line {
-    width: 380px;
+    width: 280px;
     height: 1px;
     background-color: white;
     margin: 15px 0px 0px 0px;
 }
 
 .bottom-line {
-    width: 380px;
+    width: 280px;
     height: 1px;
     background-color: white;
     margin: 0px 0px 15px 0px;

@@ -45,12 +45,12 @@ function calculateDays(dayOfWeek) {
 }
 
 function formatDate(date) {
-    var options = { day: 'numeric', month: 'long', year: 'numeric' };
+    var options = { day: 'numeric', month: 'numeric', year: 'numeric' };
     return date.toLocaleDateString('ro-RO', options);
 }
 
 function navigateToDayPage(date, nameVillage) {
-    var formattedDate = formatDate(date).replace(/\s+/g, ' ');
+    var formattedDate = formatDate(date).replace(/\s+/g, '.');
     window.location.href = "../Planned_Publishers_and_Drivers/Planned_Publishers_and_Drivers.html?date=" + 
     encodeURIComponent(formattedDate) + "&nameVillage=" + encodeURIComponent(nameVillage);
 }
