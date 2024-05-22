@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-header {
+    color: white;
+    font-size: 30px;
+    margin-top: 15px; /* Spațiere între notă și linie */
+    text-align: center; /* Aliniere text la centru */
+    max-width: 360px; /* Limitarea lungimii textului */
+    word-wrap: break-word; /* Tratarea cuvintelor lungi */
+    font-family: Calibri, sans-serif; /* Setarea fontului la Calibri */
+}
+
+.top-line {
+    width: 380px; /* Linia se întinde pe întreaga lățime a containerului */
+    height: 1px;
+    background-color: white;
+    margin: 15px 0; /* Spațiere între linie și butoane */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Butoanele dispuse unul sub altul */
+}
+
+.button {
+    margin: 15px 0; /* Spațiere între butoane */
+    padding: 30px 0; /* Spațiu interior butoane (eliminăm lățimea fixă aici) */
+    width: 380px; /* Lățime fixă pentru butoane */
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: Calibri, sans-serif; /* Setarea fontului la Calibri */
+    text-align: center; /* Aliniere text la centru */
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.bottom-line {
+    width: 380px; /* Linia se întinde pe întreaga lățime a containerului */
+    height: 1px;
+    background-color: white;
+    margin: 15px 0; /* Spațiere între linie și butoane */
+}
+
+.text-announcements {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px; /* Spațiere între notă și linie */
+    text-align: left; /* Aliniere text la stânga */
+    max-width: 360px; /* Limitarea lungimii textului */
+    word-wrap: break-word; /* Tratarea cuvintelor lungi */
+    font-family: Calibri, sans-serif; /* Setarea fontului la Calibri */
+}
